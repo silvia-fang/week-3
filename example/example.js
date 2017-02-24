@@ -18,6 +18,7 @@
   // Filter according to enrollment that is greater than this variable:
   var minEnrollment = 300;
 
+var testSplit = '123 123'.split(' ')[0];
 
   // clean the data
   for (var i = 0; i < schools.length - 1; i++) {
